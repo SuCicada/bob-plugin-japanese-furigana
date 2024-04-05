@@ -1,0 +1,26 @@
+{
+  "identifier": "sucicada.japanese.furigana",
+  "version": "1.0.1",
+  "category": "translate",
+  "name": "日本語振り仮名",
+  "summary": "日本語振り仮名",
+  "icon": "",
+  "author": "SuCicada <pengyifu@gmail.com>",
+  "homepage": "https://github.com/SuCicada/bob-plugin-japanese-furigana",
+  "appcast": "https://raw.githubusercontent.com/SuCicada/bob-plugin-japanese-furigana/master/appcast.json",
+  "minBobVersion": "1.8.0",
+
+  "options": [
+    {
+      "identifier": "apiUrl",
+      "type": "text",
+      "title": "API URL",
+      "defaultValue": "http://localhost:41401/convert",
+      "desc": "japanese furigana api",
+      "textConfig": {
+        "type": "visible",
+        "placeholderText": "http://localhost:41401/convert"
+      }
+    }
+  ]
+}
